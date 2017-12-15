@@ -64,7 +64,7 @@ html {
 /***** Header Section *****/
 
 div#header-title {
-    background-image: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/cropped-Picture1.png);
+    background-image: url(imgs/cropped-Picture1.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -122,7 +122,7 @@ button.tickets:focus {
 /****** ABOUT SECTION ******/
 
 #about-section{
-    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/Band-Again-overlay.jpg);
+    background: url(imgs/Band-Again-overlay.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,7 +162,7 @@ div#more-artists h3 {
 .column.box01 {
     padding-right: 0;
     height: 40vh;
-    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/band-member03-overlay.jpg);
+    background: url(imgs/band-member03-overlay.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -175,7 +175,7 @@ div#more-artists h3 {
 .column.box02 {
     padding-left: 0;
     height: 40vh;
-    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/band-member03-overlay.jpg);
+    background: url(imgs/band-member03-overlay.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -193,7 +193,7 @@ div#more-artists p {
 /***** COUNTDOWN SECTION *****/
 
 #countdown-section{
-    background-image: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/map-spotted-overlay.png);
+    background-image: url(imgs/map-spotted-overlay.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -251,7 +251,7 @@ div#countdown-section li {
 /***** DATE LISTING *****/
 
 #date-listing{
-    background:url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/audienece-overlay-2.png);
+    background:url(imgs/audienece-overlay-2.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;

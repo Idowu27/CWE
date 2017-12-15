@@ -1,0 +1,353 @@
+/*
+Theme Name: Countrywide Events
+Author: Naomi Idowu
+Description: The theme for Countrywide Events
+Version: 0.0.1
+*/
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.menu{
+    background: #333;
+    /*height: 82px;*/
+    
+    padding: .5% 0;
+    
+}
+
+.menu .columns {
+    width: 100%;
+    padding: 1% 0;
+}
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    color: #B49761;
+    font-size: 25px;
+    margin: 0 3%;
+    display: inline-block;
+}
+
+.navigation{
+    text-align: center;
+    float: right;
+}
+
+.navigation ul{
+    width: 100%;
+}
+.navigation li {
+    display: inline-block;
+    margin: 0 2%;
+   
+}
+.navigation li a {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 25px;
+}
+
+.navigation li a:hover{
+    color:#B49761;
+}
+#mobile-menu{
+    display: none;
+}
+
+
+/***** Header Section *****/
+
+div#header-title {
+    background-image: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/cropped-Picture1.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    text-align: center;
+}
+
+
+
+#header-title h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 12vw;
+    color: #fff;
+    line-height: 1.125;
+    margin-bottom: 1%;
+}
+
+div#header-title .columns {
+    display: table;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+#header-title .column {
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+}
+
+button.tickets, input, select, textarea {
+    margin: 0;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #B49761;
+    background: #333;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+button.tickets:hover {
+    background: #B49761;
+    color: #333;
+}
+
+button.tickets:focus {
+    outline: 0;
+}
+
+
+/****** ABOUT SECTION ******/
+
+#about-section{
+    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/Band-Again-overlay.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#about-section h1 {
+    color: #fff;
+    font-size: 12vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.about-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #fff;
+}
+
+
+/****** MORE ARTIST SECTION ******/
+
+div#more-artists {
+    height: 40vh;
+}
+
+
+div#more-artists h3 {
+    color: #fff;
+    font-size: 8vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.column.box01 {
+    padding-right: 0;
+    height: 40vh;
+    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/band-member03-overlay.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.column.box02 {
+    padding-left: 0;
+    height: 40vh;
+    background: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/band-member03-overlay.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+div#more-artists p {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.5em;
+}
+/***** COUNTDOWN SECTION *****/
+
+#countdown-section{
+    background-image: url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/map-spotted-overlay.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+p#artists {
+    color: #B49761;
+    font-size: 6vw;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p#date {
+    color: #fff;
+    font-size: 3vw;
+}
+
+p#venue {
+    color: #B49761;
+    font-size: 2.5vw;
+}
+
+p#location {
+    color: #fff;
+    font-size: 3vw;
+}
+
+p.time-interval {
+    color: #B49761;
+    font-size: 6vw;
+}
+
+p.time-setting{
+    color: #fff;
+    font-size: 2.5vw;
+    
+}
+
+#countdown-section .columns.counter {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div#countdown-section li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/***** DATE LISTING *****/
+
+#date-listing{
+    background:url(http://portfolioandmi.com/wp/cwe/wp-content/uploads/sites/2/2017/11/audienece-overlay-2.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+.column.date-info {
+    text-align: left;
+}
+
+div#date-listing .listings {
+    border-top: 1px solid #fff;
+}
+
+#date-listing h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6vw;
+}
+
+p#artist-name {
+    font-style: italic;
+    color: #B49761;
+}
+
+#event-listing-tickets{
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #B49761;
+    background: #333;
+    font-size: 26px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+/***** FOOTER *****/
+footer {
+    color: #fff;
+    background: #333;
+    border-top: 1px solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer p {
+    color: #B49761;
+}
+/*** Media Queries ***/
+@media only screen and (max-width:950px){
+    #desktop-menu{
+        display: none;
+    }
+
+    div#mobile-menu .logo, #mobile-menu ul {
+        display: none;
+    }
+
+    #mobile-menu{
+        display: block;
+        padding: 1.5% 0;
+        margin-bottom: 0;
+    }
+
+    .navigation {
+        float: initial;
+        padding: 3% 0;
+    }
+
+    .navigation a{
+        font-family: 'Permanent Marker', cursive;
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .column.box01 {
+        padding-bottom: 0;
+    }
+    
+    .column.box02 {
+        padding-top: 0;
+    }
+
+    div#more-artists {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width:668px){
+   
+
+}
